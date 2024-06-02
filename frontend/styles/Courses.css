@@ -1,0 +1,46 @@
+.courses-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card h2 {
+    margin-top: 0;
+  }
+  
+  .course-card p {
+    margin: 10px 0;
+  }
+  
+  .course-steps h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .course-steps ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .course-steps li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
